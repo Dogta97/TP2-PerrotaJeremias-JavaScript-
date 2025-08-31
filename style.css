@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.titulo {
+    display: block;
+    padding: 15px 30px;
+    border: 4px solid #e41a1a;
+    margin: 0 auto 20px auto;
+    width: fit-content;
+}
+
+.titulo h1 {
+    margin: 0;
+    color: #e41a1a;
+    font-size: 2.5rem;
+}
+
+label {
+    margin: 0 5px;
+    font-size: 1.3rem;
+}
+
+input[type="number"] {
+    width: 70px;
+    padding: 8px;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    border: 2px solid #e41a1a;
+}
+
+button {
+    display: block;
+    margin: 0 auto 25px auto;
+    padding: 15px 30px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff9100;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-style: italic;
+}
+
+button:hover {
+    background-color: #b17900;
+}
+
+.contador {
+    font-size: 3rem;
+    color: #e70000;
+}
+
+.vueltas-container {
+    margin-top: 30px;
+}
+
+.vueltas-container h2 {
+    color: #e41a1a;
+}
+
+.vueltas-container ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.vueltas-container h2:hover {
+    color: #ff9a03;
+}

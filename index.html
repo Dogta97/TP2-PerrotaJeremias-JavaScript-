@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cronómetro Array</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Workout Timer</h1>
+    </div>
+
+    <div class="inputs-container">
+    <label>
+        Minutos:
+        <input type="number" id="minutos" min="0" value="0">    
+    </label>
+    <label>
+        Segundos:
+        <input type="number" id="segundos" min="0" max="59" value="30">
+    </label>
+    </div>
+    
+    <button class="start-button">Empezar</button>
+    <button class="reset-button">Reiniciar</button>
+    <div class="contador">0:00</div>
+    <div class="vueltas-container">
+    <h2>Vueltas</h2>
+    <ul id="listaVueltas"></ul>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
