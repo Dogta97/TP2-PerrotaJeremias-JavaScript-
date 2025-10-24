@@ -25,17 +25,23 @@ body {
 }
 
 label {
-    margin: 0 5px;
-    font-size: 1.3rem;
+    margin: 0 10px;
+    font-size: 1.4rem;
+    color: #ffcc00; /* Amarillo brillante */
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black; /* Les da más visibilidad sobre el fondo */
 }
 
 input[type="number"] {
-    width: 70px;
+    width: 80px;
     padding: 8px;
     text-align: center;
     font-size: 1.3rem;
     margin-bottom: 20px;
-    border: 2px solid #e41a1a;
+    border: 3px solid #ffcc00;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
 }
 
 button {
@@ -72,7 +78,7 @@ button:hover {
     list-style-type: none;
     padding: 0;
     font-size: 1.2rem;
-    color: #333;
+    color: #e4af03;
 }
 
 .vueltas-container h2:hover {
