@@ -27,9 +27,9 @@ body {
 label {
     margin: 0 10px;
     font-size: 1.4rem;
-    color: #ffcc00; /* Amarillo brillante */
+    color: #ffcc00;
     font-weight: bold;
-    text-shadow: 1px 1px 3px black; /* Les da más visibilidad sobre el fondo */
+    text-shadow: 1px 1px 3px black;
 }
 
 input[type="number"] {
